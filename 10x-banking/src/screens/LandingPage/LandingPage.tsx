@@ -15,7 +15,7 @@ import {
   NamesEdit,
 } from "../../components/atoms/ErrorText/ErrorText.styles";
 
-export const LandingPage = () => {
+const LandingPage = () => {
   const [list, setList] = useState<ItemData[]>([]);
   const location = useLocation();
   const navigate = useNavigate();
@@ -120,3 +120,5 @@ export const LandingPage = () => {
     </S.PageWrapper>
   );
 };
+
+export default LandingPage;

@@ -15,7 +15,7 @@ import {
   NamesEdit,
 } from "../../components/atoms/ErrorText/ErrorText.styles";
 
-export const EditPage = () => {
+const EditPage = () => {
   let navigate = useNavigate();
 
   const [user, setUser] = useState<ItemData>();
@@ -89,3 +89,5 @@ export const EditPage = () => {
     </S.PageWrapper>
   );
 };
+
+export default EditPage;

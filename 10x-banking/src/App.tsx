@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import { LandingPage } from "./screens/LandingPage/LandingPage";
-import { ProfilePage } from "./screens/ProfilePage/ProfilePage";
-import { EditPage } from "./screens/EditPage/EditPage";
+import LandingPage from "./screens/LandingPage/LandingPage";
+import ProfilePage from "./screens/ProfilePage/ProfilePage";
+import EditPage from "./screens/EditPage/EditPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

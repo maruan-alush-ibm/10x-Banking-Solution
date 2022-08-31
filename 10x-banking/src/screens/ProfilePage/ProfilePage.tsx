@@ -8,9 +8,9 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import * as S from "./ProfilePage.styles";
 import { deleteUser } from "../../queries/queries";
-
 import { useEffect, useState } from "react";
-export const ProfilePage = () => {
+
+const ProfilePage = () => {
   const [user, setUser] = useState<ItemData>();
   const params = useParams();
   let navigate = useNavigate();
@@ -68,3 +68,5 @@ export const ProfilePage = () => {
     </S.PageWrapper>
   );
 };
+
+export default ProfilePage;
